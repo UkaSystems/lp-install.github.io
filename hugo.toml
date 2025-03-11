@@ -1,0 +1,49 @@
+baseURL = 'https://example.org/'
+languageCode = "en-US"
+defaultContentLanguage = "en"
+title = 'LP Install'
+theme = 'hermit-v2'
+publishDir = 'public'
+
+features = [
+  "single column",
+  "featured image",
+  "social icons",
+  "google analytics",
+  "disqus",
+  "customizable"
+]
+
+[languages]
+  [languages.en]
+    title = 'LP Install'
+    [languages.en.params]
+      homeSubtitle = "~ Coming Soon ~"
+    weight = 1
+  [languages.fr]
+    title = 'LP Install'
+    [languages.fr.params]
+      homeSubtitle = "Site en construction"
+    weight = 2
+  [languages.de]
+    title = 'LP Install'
+    [languages.de.params]
+      homeSubtitle = "Seite Kommt bald"
+    weight = 3
+
+[params]
+    description = 'Site Description'
+    footerHideThemeName = true
+    homeSubtitle = "Coming Soon"
+    
+[[params.socialLinks]]
+    name = "email"
+    url = "mailto:info@lpinstall.de"
+
+[[params.socialLinks]]
+    name = "linkedin"
+    url = "https://linkedin.com"
+
+[[params.socialLinks]]
+    name = "phone"
+    url = "tel:123-456-78"
