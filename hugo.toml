@@ -35,7 +35,13 @@ features = [
     description = 'Site Description'
     footerHideThemeName = true
     homeSubtitle = "Coming Soon"
+    logo = 'assets\img\LP_install_logo.png'
     
+
+[[params.socialLinks]]
+    name = "location"
+    url = "https://maps.app.goo.gl/mZ3f6UJDMuTQLxFn6"
+
 [[params.socialLinks]]
     name = "email"
     url = "mailto:info@lpinstall.de"
@@ -47,3 +53,4 @@ features = [
 [[params.socialLinks]]
     name = "phone"
     url = "tel:123-456-78"
+
