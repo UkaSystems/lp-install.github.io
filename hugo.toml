@@ -1,9 +1,12 @@
-baseURL = 'https://example.org/'
+baseURL = '/'
 languageCode = "en-US"
 defaultContentLanguage = "en"
 title = 'LP Install'
 theme = 'hermit-v2'
 publishDir = 'public'
+uglyURLs = true
+relativeURLs = true
+
 
 features = [
   "single column",
@@ -35,8 +38,9 @@ features = [
     description = 'Site Description'
     footerHideThemeName = true
     homeSubtitle = "Coming Soon"
-    logo = 'assets\img\LP_install_logo.png'
-    
+
+[params.meta]
+  favicon=false
 
 [[params.socialLinks]]
     name = "location"
