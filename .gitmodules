@@ -1,3 +1,7 @@
 [submodule "themes/hermit-v2"]
 	path = themes/hermit-v2
 	url = https://github.com/1bl4z3r/hermit-V2.git
+[submodule "public"]
+	path = public
+	url = https://github.com/UkaSystems/lp-coming-soon.git
+	branch = main
